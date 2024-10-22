@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+	background-color: yellowgreen;
+}
+
+p {
+	background-color: yellow;
+}
+
+.klasa1 {
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
+
+#id1 {
+		
+}

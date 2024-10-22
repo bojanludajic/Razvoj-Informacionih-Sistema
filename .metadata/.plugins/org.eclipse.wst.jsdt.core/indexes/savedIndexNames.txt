@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/bojanludajic/ProgramiFakultetEclipse/RIS/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2184168503.index
+1244615105.index
+3278342327.index
+3592455142.index
+3182272842.index
+689522098.index
+136348690.index

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Razvoj informacionih sistema</title>
+</head>
+<body>
+<h1>Prve prakticne vezbe</h1>
+<p>HTML, CSS i Bootstrap</p>
+
+<a href="https://www.pmf.uns.ac.rs" target="_blank">PMF sajt</a>
+
+<h3>Forma</h3>
+<form>
+	Tekst: <input type="text">
+	Datum: <input type="date">
+	<input type="submit" value="OK">
+</form>
+
+<br>
+
+<table border="1">
+	<tr>
+		<th>Naziv</th>
+		<th>Autor</th>
+		<th>Izdavac</th>
+	</tr>
+	<tr>
+		<td>Na Drini Cuprija</td>
+		<td>Ivo Andric</td>
+		<td>Laguna</td>
+	</tr>
+	<tr>
+		<td>Na Drini Cuprija</td>
+		<td>Ivo Andric</td>
+		<td>Laguna</td>
+	</tr>
+</table>
+</body>
+</html>
