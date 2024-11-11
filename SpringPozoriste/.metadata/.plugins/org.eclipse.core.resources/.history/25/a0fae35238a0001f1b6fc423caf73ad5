@@ -1,0 +1,33 @@
+package manager;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.EntityManager;
+import model.Predstava;
+import model.Zanr;
+
+public class Manager {
+	
+	public static List<Zanr> sviZanrovi() {
+		EntityManager em = JPAUtils.getEntityManager();
+		return em.createNamedQuery("Zanr.findAll", Zanr.class).getResultList();
+	}
+
+	public static List<Predstava> predstavePoZanru(int idZanr) {
+		EntityManager em = JPAUtils.getEntityManager();
+		List<Predstava> predstave = new ArrayList<>();
+		predstave = em.createQuery("select zp.predstava from ZanrPredstave zp where zp.zanr.idZanr = :zId", Predstava.class)
+				.setParameter("zId", idZanr)
+				.getResultList();
+		return predstave;
+	}
+	
+	public static void main(String[] args) {
+		for(Predstava p : predstavePoZanru(0)) {
+			System.out.println(p.getNaziv());
+		}
+	}
+	
+	
+}

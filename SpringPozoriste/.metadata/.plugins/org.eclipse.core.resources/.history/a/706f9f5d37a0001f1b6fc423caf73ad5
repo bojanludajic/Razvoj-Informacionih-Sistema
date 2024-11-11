@@ -1,0 +1,13 @@
+package manager;
+
+import java.util.List;
+
+import jakarta.persistence.EntityManager;
+import model.Zanr;
+
+public class ZanrManager {
+
+	
+	
+	
+}

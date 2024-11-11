@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Pregled predstava po zanru</h1>
+	<select name="zanrId" id="zanr">
+            <c:forEach var="zanr" items="${zanrovi}">
+                <option value="${zanr.idZanr}">${zanr.naziv}</option>
+            </c:forEach>
+        </select>
+	<c:forEach var="predstava" items="${predstave}">
+		<li>${predstava.naziv}- ${predstava.opis}</li>
+	</c:forEach>
+</body>
+</html>

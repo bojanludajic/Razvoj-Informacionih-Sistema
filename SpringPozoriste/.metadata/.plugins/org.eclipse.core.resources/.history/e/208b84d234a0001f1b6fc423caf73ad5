@@ -1,0 +1,23 @@
+package controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import model.Predstava;
+import model.Zanr;
+import manager.PredstaveManager;
+import manager.ZanrManager;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Controller
+@RequestMapping("/predstave/")
+public class PredstavaController {
+	
+	@GetMapping(value="getZanrovi")
+	
+	
+}

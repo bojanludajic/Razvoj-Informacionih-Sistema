@@ -1,0 +1,21 @@
+package manager;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.EntityManager;
+import model.Predstava;
+import model.Zanr;
+
+public class PredstaveManager {
+
+	public static List<Predstava> predstavePoZanru(int idZanr) {
+		EntityManager em = JPAUtils.getEntityManager();
+		List<Predstava> predstave = new ArrayList<>();
+		predstave = em.createQuery("SELECT p FROM Predstava p JOIN predstavaZanr pz WHERE pz.idZanr =: x", Predstava.class)
+				.setParameter(0, idZanr)
+				.getResultList();
+		return predstave;
+	}
+	
+}

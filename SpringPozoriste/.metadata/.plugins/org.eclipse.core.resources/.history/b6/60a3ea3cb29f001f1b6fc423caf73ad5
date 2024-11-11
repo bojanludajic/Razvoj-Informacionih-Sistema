@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pregled Predstava po Žanru</title>
+</head>
+<body>
+    <h1>Pregled Predstava po Žanru</h1>
+
+    <form action="/predstave/prikazi" method="get">
+        <label for="zanr">Izaberite žanr:</label>
+        <select name="zanrId" id="zanr">
+            <c:forEach var="zanr" items="${zanrovi}">
+                <option value="${zanr.idZanr}">${zanr.naziv}</option>
+            </c:forEach>
+        </select>
+        <button type="submit">Prikaži predstave</button>
+    </form>
+
+    <h2>Lista Predstava</h2>
+    <c:if test="${not empty predstave}">
+        <ul>
+            <c:forEach var="predstava" items="${predstave}">
+                <li>${predstava.naziv} - ${predstava.opis}</li>
+            </c:forEach>
+        </ul>
+    </c:if>
+
+    <c:if test="${empty predstave}">
+        <p>Nema predstava za odabrani žanr.</p>
+    </c:if>
+</body>
+</html>

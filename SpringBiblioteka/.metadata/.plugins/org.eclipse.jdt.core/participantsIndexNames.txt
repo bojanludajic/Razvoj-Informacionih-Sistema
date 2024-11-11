@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+/Users/bojanludajic/ProgramiFakultetEclipse/RIS/SpringBiblioteka/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1807422684.index
+/BibliotekaWEB/src/main/java
+/Users/bojanludajic/ProgramiFakultetEclipse/RIS/ResenjaV3/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3869564336.index
+/BibliotekaWEB/src/main/java
+/Users/bojanludajic/ProgramiFakultetEclipse/RIS/ResenjaV3/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2443439398.index
+/BibliotekaWEB/src/main/java
+/Users/bojanludajic/ProgramiFakultetEclipse/RIS/ResenjaV3/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1807422684.index
+/BibliotekaWEB/src/main/java

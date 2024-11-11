@@ -1,0 +1,10 @@
+package manager;
+
+public class ZanrManager {
+
+	
+	public static List<Zanr> sviZanrovi() {
+		
+	}
+	
+}

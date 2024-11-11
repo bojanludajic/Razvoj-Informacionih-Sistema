@@ -1,0 +1,981 @@
+2024-11-10 16:55:53,052 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-10 16:56:48,442 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT @ /Users/bojanludajic/Downloads/PozoristeJPA/pom.xml.
+2024-11-10 16:56:48,490 [Worker-18: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.0.0.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.0.0.Final
+2024-11-10 16:56:48,491 [Worker-18: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-11-10 16:56:49,305 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 16:56:49,309 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 16:56:49,322 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 16:56:49,322 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 16:56:58,260 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:PozoristeWEB:0.0.1-SNAPSHOT @ /Users/bojanludajic/Downloads/PozoristeWEB/pom.xml.
+2024-11-10 16:56:58,325 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier  to /PozoristeJPA/target/classes
+2024-11-10 16:56:58,486 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 16:56:58,491 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 16:56:58,492 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 16:56:59,026 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:PozoristeWEB:0.0.1-SNAPSHOT @ /Users/bojanludajic/Downloads/PozoristeWEB/pom.xml.
+2024-11-10 16:56:59,073 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier  to /PozoristeJPA/target/classes
+2024-11-10 16:56:59,643 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 16:56:59,651 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 16:56:59,656 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 16:57:56,277 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 16:57:56,279 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 16:57:56,281 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 16:58:40,390 [Worker-10: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 16:58:40,414 [Worker-10: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 16:58:40,437 [Worker-10: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 17:00:04,765 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:04,766 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 17:00:04,767 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:04,767 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 17:00:38,501 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:38,502 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 17:00:38,502 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:38,503 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 17:00:41,258 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:41,259 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 17:00:41,260 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:41,260 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 17:00:42,552 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:42,554 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 17:00:42,555 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 17:00:42,555 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 17:01:54,009 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:01:54,010 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:01:54,011 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 17:02:01,457 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:02:01,457 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:02:01,458 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 17:02:10,541 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:02:10,541 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:02:10,542 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 17:02:22,833 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:02:22,833 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:02:22,834 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 17:07:48,794 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:07:48,794 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:07:48,795 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 17:08:02,082 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:08:02,082 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:08:02,083 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 17:08:18,026 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:08:18,026 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 17:08:18,028 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 22:50:44,715 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 22:50:44,717 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 22:50:44,718 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 22:52:37,943 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 22:52:37,945 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 22:52:37,945 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 22:53:28,068 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 22:53:28,069 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 22:53:28,070 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 22:53:39,498 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:53:39,499 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:53:39,500 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:53:39,500 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:53:50,945 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:53:50,946 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:53:50,946 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:53:50,947 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:54:08,368 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:08,368 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:54:08,369 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:08,369 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:54:15,359 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:15,360 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:54:15,360 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:15,361 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:54:26,046 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:26,046 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:54:26,047 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:26,047 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:54:28,414 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:28,415 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:54:28,416 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:28,416 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:54:55,103 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:55,105 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:54:55,106 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:54:55,106 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:55:06,546 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:55:06,546 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:55:06,547 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:55:06,547 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:55:09,722 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:55:09,723 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:55:09,724 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:55:09,724 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:56:12,622 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:56:12,623 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:56:12,623 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:56:12,623 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:56:27,470 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:56:27,470 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:56:27,471 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:56:27,471 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 22:59:50,317 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:59:50,318 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 22:59:50,319 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 22:59:50,319 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 23:01:21,956 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:PozoristeWEB:0.0.1-SNAPSHOT @ /Users/bojanludajic/Downloads/PozoristeWEB/pom.xml.
+2024-11-10 23:01:22,055 [Worker-40: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier  to /PozoristeJPA/target/classes
+2024-11-10 23:01:22,123 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:01:22,124 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:01:22,125 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:01:46,656 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:01:46,661 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:01:46,662 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:05:31,743 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:05:31,744 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 23:05:31,745 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:05:31,745 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 23:05:54,857 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:05:54,864 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:05:54,866 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:06:06,948 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:06:06,949 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:06:06,950 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:06:31,984 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:06:31,985 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:06:31,985 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:06:42,759 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:06:42,759 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:06:42,760 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:10:41,858 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:10:41,859 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:10:41,859 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:10:43,159 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:10:43,159 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:10:43,160 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:10:50,484 [Worker-53: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 23:10:50,500 [Worker-53: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 23:10:50,516 [Worker-53: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 23:11:16,455 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:11:16,456 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:11:16,457 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:11:18,279 [Worker-53: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 23:11:18,294 [Worker-53: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 23:11:18,308 [Worker-53: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-10 23:13:03,138 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:13:03,142 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:13:03,145 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:13:12,936 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:13:12,938 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:13:12,938 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:13:20,953 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:13:20,953 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:13:20,954 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:15:44,802 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:15:44,803 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 23:15:44,804 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:15:44,804 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 23:15:59,332 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:15:59,333 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 23:15:59,333 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:15:59,333 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 23:16:26,126 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:16:26,127 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 23:16:26,127 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:16:26,127 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 23:16:49,558 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:16:49,559 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-10 23:16:49,559 [Worker-54: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-10 23:16:49,559 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-10 23:17:38,168 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:17:38,170 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:17:38,170 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:18:01,734 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:18:01,735 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:18:01,736 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:18:28,139 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:18:28,139 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:18:28,140 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:19:56,231 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:19:56,232 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:19:56,233 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:20:36,804 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:20:36,806 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:20:36,806 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:20:46,735 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:20:46,736 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:20:46,737 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:21:25,763 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:21:25,764 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:21:25,765 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:21:29,479 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:21:29,480 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:21:29,480 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:21:32,917 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:21:32,918 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:21:32,918 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:22:14,800 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:22:14,801 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:22:14,802 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:23:23,894 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:23:23,894 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:23:23,895 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:23:36,523 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:23:36,523 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:23:36,525 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:23:51,163 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:23:51,163 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:23:51,164 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:24:11,243 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:24:11,244 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:24:11,244 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-10 23:24:40,719 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-10 23:24:40,720 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-10 23:24:40,721 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:50:26,301 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:50:26,306 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:50:26,308 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:51:21,298 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:51:21,302 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:51:21,303 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:51:33,540 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:51:33,541 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:51:33,541 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:51:54,037 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:51:54,038 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:51:54,039 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:52:05,924 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:52:05,925 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:05,926 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:52:19,670 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:52:19,671 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:19,672 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:52:41,843 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:41,843 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:41,844 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:52:47,133 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:47,134 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:47,135 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:52:48,149 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:48,150 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:52:48,151 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:52:51,646 [Worker-81: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 14:52:51,664 [Worker-81: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 14:52:51,679 [Worker-81: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 14:53:38,916 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:53:38,916 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:53:38,917 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:53:47,088 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:53:47,088 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:53:47,089 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:54:09,250 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:09,250 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:09,252 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:54:10,579 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:10,579 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:10,580 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:54:19,662 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:19,662 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:19,663 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:54:51,641 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:51,641 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:51,642 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:54:52,991 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:52,991 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:52,993 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:54:54,012 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:54,013 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:54:54,015 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:56:22,586 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:56:22,587 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:56:22,587 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:57:00,358 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:57:00,359 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:57:00,360 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:57:03,742 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:57:03,744 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:57:03,745 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:58:26,179 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:58:26,180 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:58:26,181 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:58:45,486 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:58:45,487 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:58:45,488 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:59:03,674 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 14:59:03,675 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:59:03,676 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 14:59:10,537 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:59:10,538 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 14:59:10,539 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:00:03,898 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:00:03,898 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:00:03,899 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:00:54,029 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:00:54,030 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:00:54,031 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:01:52,641 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:01:52,642 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:01:52,642 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:03:05,581 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:03:05,582 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:03:05,583 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:03:26,082 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:03:26,083 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:03:26,084 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:03:47,231 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:03:47,232 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:03:47,233 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:03:47,233 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:05:53,696 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:05:53,696 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:05:53,697 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:06:28,499 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:06:28,500 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:06:28,501 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:06:39,596 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:06:39,598 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:06:39,598 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:07:41,610 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:07:41,611 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:07:41,612 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:09:57,096 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:09:57,097 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:09:57,097 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:09:57,097 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:10:33,720 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:33,721 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:10:33,721 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:33,721 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:10:44,664 [Worker-84: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:44,664 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:10:44,665 [Worker-84: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:44,665 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:10:48,276 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:48,277 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:10:48,277 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:48,277 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:10:57,870 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:57,871 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:10:57,871 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:10:57,872 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:11:39,461 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:11:39,462 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:11:39,464 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:14:02,569 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:02,570 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:02,571 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:14:26,232 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:26,233 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:26,234 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:14:35,181 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:14:35,182 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:14:35,183 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:14:35,183 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:14:38,458 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:14:38,459 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:14:38,460 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:14:38,460 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:14:45,610 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:14:45,612 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:45,613 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:14:47,785 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:14:47,786 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:47,787 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:14:55,900 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:14:55,901 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:55,902 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:14:58,112 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:14:58,113 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:14:58,114 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:15:06,503 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:15:06,504 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:15:06,505 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:15:06,505 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:15:12,723 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:15:12,724 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:15:12,725 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:15:12,726 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:15:19,115 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 15:15:19,116 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:15:19,117 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:15:55,219 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:15:55,220 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:15:55,220 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:15:55,220 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:18:09,398 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:09,400 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:18:09,401 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:09,401 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:18:11,733 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:11,733 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:18:11,734 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:11,734 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:18:38,724 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:38,725 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:18:38,725 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:38,725 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:18:49,192 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:49,192 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:18:49,193 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:49,193 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:18:52,270 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:52,271 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:18:52,271 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:18:52,271 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:19:03,643 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:03,644 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:19:03,644 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:03,644 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:19:31,302 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:31,302 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:19:31,303 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:31,303 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:19:37,208 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:37,209 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:19:37,210 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:37,210 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:19:58,096 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:58,097 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:19:58,097 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:19:58,098 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:20:16,588 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:20:16,589 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:20:16,590 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:20:16,590 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:20:27,330 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:20:27,330 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:20:27,331 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:20:27,331 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:20:38,747 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:20:38,748 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:20:38,750 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:20:38,750 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:21:00,745 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:00,746 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:21:00,746 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:00,746 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:21:16,470 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:16,471 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:21:16,471 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:16,471 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:21:48,541 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:48,542 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:21:48,543 [Worker-83: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:48,543 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:21:55,631 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:55,632 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:21:55,632 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:21:55,632 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:22:00,240 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:00,240 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:22:00,241 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:00,241 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:22:04,218 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:04,219 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:22:04,219 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:04,220 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:22:12,248 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:12,249 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:22:12,249 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:12,249 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:22:13,474 [Worker-85: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:13,475 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:22:13,475 [Worker-85: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:22:13,475 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:23:27,729 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:23:27,730 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:23:27,731 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:23:27,731 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:23:41,603 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:23:41,604 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:23:41,605 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:23:41,605 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:24:31,670 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:24:31,672 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:24:31,672 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:24:31,672 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:25:05,118 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:25:05,119 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:25:05,119 [Worker-81: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:25:05,119 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:28:44,746 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:28:44,747 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:28:44,747 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:28:44,748 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:28:53,711 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:28:53,712 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:28:53,712 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:28:53,712 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:30:26,049 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:30:26,051 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:30:26,051 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:30:26,051 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:30:45,641 [Worker-90: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:30:45,642 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:30:45,642 [Worker-90: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:30:45,642 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:30:56,896 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:30:56,897 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 15:30:56,898 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 15:30:56,898 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 15:32:14,208 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:32:14,209 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:32:14,210 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:32:44,045 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:32:44,045 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:32:44,046 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:33:55,797 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:33:55,798 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:33:55,799 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:34:29,858 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:34:29,858 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 15:34:29,859 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 15:35:03,128 [Worker-80: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 15:35:03,144 [Worker-80: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 15:35:03,166 [Worker-80: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:40:30,376 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:40:30,377 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:40:30,378 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:40:34,096 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:40:34,097 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:40:34,097 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:41:27,534 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:41:27,534 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:41:27,534 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:41:51,064 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:41:51,065 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:41:51,065 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:41:54,384 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:41:54,385 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:41:54,386 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:42:36,708 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:42:36,720 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:42:36,722 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:42:44,611 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:42:44,612 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:42:44,613 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:45:53,703 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:45:53,704 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:45:53,705 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:46:02,286 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:46:02,286 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:46:02,287 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:47:06,553 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:47:06,554 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:47:06,555 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:47:10,832 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:47:10,833 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:47:10,834 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:47:20,521 [Worker-89: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:PozoristeWEB:0.0.1-SNAPSHOT @ /Users/bojanludajic/Downloads/PozoristeWEB/pom.xml.
+2024-11-11 17:47:20,593 [Worker-89: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier  to /PozoristeJPA/target/classes
+2024-11-11 17:47:20,664 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:47:20,665 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:47:20,666 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:48:42,220 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:48:42,225 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:48:42,226 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:48:57,757 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:48:57,758 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:48:57,759 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:49:06,932 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:49:06,933 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:49:06,933 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:52:38,250 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:52:38,252 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:52:38,253 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:53:06,226 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:53:06,226 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:53:06,227 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:54:21,889 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-11 17:55:56,258 [Worker-9: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier  to /PozoristeJPA/target/classes
+2024-11-11 17:55:56,298 [Worker-9: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:55:56,319 [Worker-9: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:55:56,337 [Worker-9: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:57:23,861 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 17:57:23,882 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:57:23,887 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 17:57:35,487 [Worker-20: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:57:35,505 [Worker-20: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:57:35,521 [Worker-20: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:57:39,538 [Worker-20: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:57:39,556 [Worker-20: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:57:39,572 [Worker-20: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 17:57:51,027 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:57:51,027 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 17:57:51,029 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:00:51,036 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:00:51,037 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:00:51,038 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:01:15,806 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:01:15,806 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:01:15,807 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:01:36,461 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:01:36,461 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:01:36,462 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:01:44,983 [Worker-19: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:01:45,001 [Worker-19: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:01:45,016 [Worker-19: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:01:57,715 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:01:57,715 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:01:57,716 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:02:02,231 [Worker-4: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:02:02,249 [Worker-4: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:02:02,265 [Worker-4: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:02:31,098 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:02:31,098 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:02:31,099 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:03:03,786 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:03:03,786 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:03:03,787 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:03:09,339 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:03:09,356 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:03:09,371 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:03:17,627 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:03:17,627 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:03:17,629 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:05:13,215 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:05:13,215 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:05:13,217 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:05:21,208 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:05:21,209 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:05:21,210 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:05:38,717 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:05:38,718 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:05:38,719 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:05:47,460 [Worker-23: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:05:47,477 [Worker-23: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:05:47,492 [Worker-23: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:08:02,967 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:02,969 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:02,970 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:08:07,322 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:07,323 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:07,324 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:08:16,717 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:08:16,733 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:08:16,747 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:08:23,689 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:23,689 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:23,691 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:08:45,634 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:45,634 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:08:45,635 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:08:59,512 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:08:59,529 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:08:59,545 [Worker-8: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:09:23,204 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:09:23,204 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:09:23,205 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:09:32,025 [Worker-18: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:09:32,042 [Worker-18: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:09:32,056 [Worker-18: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:09:54,005 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:09:54,005 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:09:54,006 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:10:46,491 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:10:46,493 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:10:46,494 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:10:49,204 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:10:49,206 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:10:49,206 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:10:55,908 [Worker-27: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:10:55,925 [Worker-27: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:10:55,939 [Worker-27: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:15:51,087 [Worker-23: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:15:51,104 [Worker-23: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:15:51,119 [Worker-23: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:20:26,600 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:20:26,602 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:20:26,605 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:20:44,354 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:20:44,355 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:20:44,356 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:21:04,166 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:21:04,168 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:21:04,168 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:21:16,732 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:21:16,734 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:21:16,734 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:21:24,534 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:21:24,535 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:21:24,536 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:21:26,660 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:21:26,661 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:21:26,661 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:21:31,180 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:21:31,181 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:21:31,182 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:21:47,451 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:21:47,452 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:21:47,453 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:21:58,068 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:21:58,069 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:21:58,069 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:22:17,186 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.0.0.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.0.0.Final
+2024-11-11 18:22:17,187 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-11-11 18:22:17,242 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:22:17,242 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 18:22:17,246 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:22:17,246 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 18:22:26,632 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:22:26,633 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 18:22:26,634 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:22:26,634 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 18:23:15,483 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:23:15,484 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 18:23:15,485 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:23:15,485 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 18:23:38,212 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:23:38,213 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:23:38,214 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:24:09,014 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 18:24:09,016 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:24:09,016 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:24:35,576 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:24:35,576 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:24:35,577 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:24:50,831 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:24:50,831 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:24:50,832 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:24:57,570 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:24:57,570 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:24:57,571 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:25:07,807 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:07,808 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:07,808 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:25:08,825 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:08,826 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:08,828 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:25:13,699 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:13,700 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:13,701 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:25:44,140 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:44,141 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:44,142 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:25:50,499 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:50,499 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:25:50,500 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:26:27,718 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:26:27,720 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 18:26:27,720 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:26:27,720 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 18:26:42,617 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:26:42,618 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 18:26:42,619 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:26:42,619 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 18:26:56,841 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:26:56,841 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:26:56,842 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:40:30,165 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:40:30,167 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 18:40:30,167 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 18:40:30,167 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 18:40:58,906 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:40:58,907 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:40:58,908 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:43:14,773 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:14,774 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:14,776 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:43:16,544 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:16,544 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:16,546 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:43:33,778 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:33,779 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:33,780 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:43:43,591 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:43,592 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:43:43,593 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:44:47,781 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:44:47,781 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:44:47,782 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:45:40,558 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:45:40,559 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:45:40,560 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:45:44,003 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:45:44,003 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:45:44,004 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:46:08,968 [Worker-37: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:46:08,986 [Worker-37: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:46:09,005 [Worker-37: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:46:17,235 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:46:17,235 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:46:17,237 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:46:21,172 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:46:21,173 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:46:21,174 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:46:45,198 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:46:45,198 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:46:45,198 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:47:49,040 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:47:49,041 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:47:49,042 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:48:13,033 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:13,034 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:13,035 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:48:15,875 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:15,875 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:15,876 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:48:23,990 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:23,990 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:23,991 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:48:29,456 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:29,456 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:29,457 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:48:33,505 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:33,506 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:48:33,507 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:49:08,302 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:49:08,302 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:49:08,303 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:49:11,598 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:49:11,599 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:49:11,600 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:49:25,633 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:49:25,648 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:49:25,662 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:50:20,829 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:50:20,830 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:50:20,831 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:50:23,869 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:50:23,900 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:50:23,914 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:50:57,882 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:50:57,883 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:50:57,885 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:50:58,905 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:50:58,906 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:50:58,911 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:50:59,948 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:50:59,964 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:50:59,978 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:04,142 [Worker-19: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:04,159 [Worker-19: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:04,173 [Worker-19: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:16,801 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:51:16,802 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:51:16,802 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:51:21,572 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:51:21,572 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:51:21,574 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:51:30,765 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:30,782 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:30,797 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:47,346 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:51:47,347 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:51:47,347 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:51:52,074 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:52,091 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:51:52,105 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:00,006 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:52:00,006 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:52:00,007 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:52:02,708 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:02,724 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:02,739 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:16,350 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:52:16,351 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:52:16,352 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:52:18,880 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:18,895 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:18,910 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:21,914 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:52:21,914 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:52:21,915 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:52:28,488 [Worker-38: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:28,504 [Worker-38: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:52:28,518 [Worker-38: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:53:30,922 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:53:30,922 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:53:30,923 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:53:35,753 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:53:35,774 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:53:35,789 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:53:57,289 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:53:57,289 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:53:57,290 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 18:54:05,666 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:54:05,682 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:54:05,696 [Worker-39: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 18:54:51,700 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:54:51,701 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 18:54:51,702 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:02:06,264 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 19:02:06,266 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:02:06,267 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:03:00,161 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:00,162 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:03:00,163 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:00,163 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:03:07,012 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:07,012 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:03:07,013 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:07,013 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:03:25,840 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:25,841 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:03:25,841 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:25,841 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:03:29,343 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:29,344 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:03:29,344 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:03:29,344 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:03:39,119 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-11 19:03:39,120 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:03:39,121 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:03:52,436 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:03:52,436 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:03:52,437 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:04:26,845 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:04:26,846 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:04:26,847 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:05:21,202 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:05:21,202 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:05:21,203 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:05:25,274 [Worker-44: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:05:25,290 [Worker-44: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:05:25,304 [Worker-44: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:06:07,792 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:06:07,793 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:06:07,794 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:06:18,514 [Worker-44: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:06:18,530 [Worker-44: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:06:18,544 [Worker-44: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:07:07,457 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:07,458 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:07:07,458 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:07,458 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:07:11,314 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:11,314 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:07:11,315 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:11,315 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:07:27,723 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:27,724 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:07:27,725 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:27,725 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:07:33,822 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:33,822 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:07:33,823 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:33,823 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:07:43,729 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:43,730 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/java to target/classes
+2024-11-11 19:07:43,730 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-11 19:07:43,730 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeJPA/src/test/resources
+2024-11-11 19:08:10,963 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:08:10,963 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:08:10,964 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:08:23,044 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:08:23,044 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:08:23,045 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:08:43,490 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:08:43,504 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:08:43,516 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:02,411 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:09:02,411 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:09:02,412 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:09:08,175 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:08,192 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:08,208 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:08,616 [Worker-38: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:08,630 [Worker-38: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:08,644 [Worker-38: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:13,802 [Worker-33: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:13,818 [Worker-33: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:09:13,840 [Worker-33: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:10:55,798 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:10:55,798 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-11 19:10:55,799 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bojanludajic/Downloads/PozoristeWEB/src/test/resources
+2024-11-11 19:11:05,014 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:11:05,030 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes
+2024-11-11 19:11:05,044 [Worker-34: Launching PozoristeWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PozoristeJPA: PozoristeJPA:PozoristeJPA:0.0.1-SNAPSHOT with classifier null to /PozoristeJPA/target/classes

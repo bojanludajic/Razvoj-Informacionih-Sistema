@@ -1,0 +1,18 @@
+package manager;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.EntityManager;
+import model.Predstava;
+
+public class PredstaveManager {
+
+	public List<Predstava> predstavePoZanru() {
+		EntityManager em = JPAUtils.getEntityManager();
+		List<Predstava> predstave = new ArrayList<>();
+		
+		return predstave;
+	}
+	
+}

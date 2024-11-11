@@ -1,0 +1,27 @@
+package controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import model.Predstava;
+import model.Zanr;
+import manager.PredstaveManager;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/predstave")
+public class PredstavaController {
+
+	@GetMapping(value="getPredstave")
+	public String prikaziPredstave(Zanr zanr, Model m) {
+		List<Predstava> predstave = PredstaveManager.predstavePoZanru(zanr);
+		m.addAttribute("predstave", predstave);
+		System.out.println(predstave.toString());
+		return "predstavePoZanru";
+	}
+	
+	
+}

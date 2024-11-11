@@ -1,0 +1,13 @@
+package manager;
+
+import java.util.List;
+
+import model.Predstava;
+
+public class PredstaveManager {
+
+	public List<Predstava> predstavePoZanru() {
+		List<Predstava> predstave = new ArrayList<>();
+	}
+	
+}

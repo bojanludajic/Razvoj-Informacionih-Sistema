@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RIS</title>
+</head>
+<body>
+	<h2>Pozoriste</h2>
+	<a href="/Pozoriste/UnosPosetioca.jsp">Unos posetioca</a><br>
+	<a href="/Pozoriste/PrikazIzvodjenja.jsp">Prikaz izvodjenja</a><br>
+	<a href="/Pozoriste/predstave/getZanrovi">Pregled predstava</a>
+	<a href="/Pozoriste/karte/getKarte">Pregled karata</a>
+</body>
+</html>

@@ -1,0 +1,24 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import manager.Manager;
+import model.Karta;
+
+@Controller
+@RequestMapping("/karte/")
+public class KartaController {
+
+	@GetMapping(value="getKarte")
+	public String sveKarte() {
+		List<Karta> karte = Manager.sveKarte();
+		
+		return "sveKarte";
+	}
+	
+}
+

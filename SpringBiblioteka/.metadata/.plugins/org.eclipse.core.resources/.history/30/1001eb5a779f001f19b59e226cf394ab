@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Novi član</title>
+</head>
+<body>
+	<h2>Unos novog člana</h2>
+	<form action="/Biblioteka/clan/saveClan" method="post">
+		Kategorija: <select name="kat">
+			<c:forEach items="${kategorije}" var="k">
+				<option value="${k}">${k}</option>
+			</c:forEach>
+		</select><br> Ime: <input type="text" name="ime" /><br> Prezime: <input
+			type="text" name="prezime" /><br> <input type="submit"
+			value="Sačuvaj" />
+	</form>
+	<br>
+	<br>
+	<c:if test="${!empty poruka }">
+		${poruka }
+	</c:if>
+</body>
+</html>

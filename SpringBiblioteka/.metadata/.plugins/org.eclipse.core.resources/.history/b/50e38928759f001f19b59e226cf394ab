@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pocetna</title>
+</head>
+<body>
+	<h2>Biblioteka</h2>
+	<a href="/Biblioteka/clan/getKategorije">Novi član</a><br>
+	<a href="/Biblioteka/knjiga/getIzdavaci">Knjige za izdavača</a>
+	<a href="">Zaduzenja</a>
+</body>
+</html>
