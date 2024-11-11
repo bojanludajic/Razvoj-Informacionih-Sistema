@@ -1,0 +1,47 @@
+package manager;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import jakarta.persistence.EntityManager;
+import model.Karta;
+import model.Predstava;
+import model.Zanr;
+
+public class Manager {
+	
+	public static List<Zanr> sviZanrovi() {
+		EntityManager em = JPAUtils.getEntityManager();
+		return em.createNamedQuery("Zanr.findAll", Zanr.class).getResultList();
+	}
+
+	public static List<Predstava> predstavePoZanru(int idZanr) {
+		EntityManager em = JPAUtils.getEntityManager();
+		List<Predstava> predstave = new ArrayList<>();
+		predstave = em.createQuery("SELECT zp.predstava FROM ZanrPredstave zp WHERE zp.zanr.idZanr = :idZ", Predstava.class)
+				.setParameter("idZ", idZanr)
+				.getResultList();
+		return predstave;
+	}
+	
+	public static List<Karta> sveKarte() {
+		EntityManager em = JPAUtils.getEntityManager();
+		return em.createNamedQuery("Karta.findAll", Karta.class).getResultList();
+	}
+	
+	public static List<Karta> filtriraneKarte(String datum) {
+		return sveKarte().stream()
+				.filter(k -> k.getDatumRezervacije().toString().equals(datum))
+				.collect(Collectors.toList());
+	}
+	
+	
+	// main za debagovanje upita
+	public static void main(String[] args) {
+		System.out.println(filtriraneKarte("2024-11-10").get(0).getCena());
+	}
+
+	
+	
+}
