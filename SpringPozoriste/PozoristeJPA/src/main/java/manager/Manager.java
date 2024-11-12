@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import jakarta.persistence.EntityManager;
+import model.Glumac;
+import model.GlumiUIzvodjenju;
+import model.Izvodjenje;
 import model.Karta;
 import model.Predstava;
 import model.Zanr;
@@ -36,10 +39,42 @@ public class Manager {
 				.collect(Collectors.toList());
 	}
 	
+	public static List<Izvodjenje> izvodjenjaPoNazivu(String nazivPredstave) {
+		EntityManager em = JPAUtils.getEntityManager();
+		try {
+			List<Izvodjenje> izvodjenja = em.createQuery("SELECT i FROM Izvodjenje i "
+					+ "WHERE i.predstava.naziv = :x", Izvodjenje.class)
+					.setParameter("x", nazivPredstave)
+					.getResultList();
+			return izvodjenja;
+		} catch(Exception ex) {
+			ex.printStackTrace();
+			return null;
+		}
+	}
+	
+	public static List<Glumac> glumciUIzvodjenju(int idIzvodjenja) {
+		EntityManager em = JPAUtils.getEntityManager();
+		try {
+			List<Glumac> glumci = em.createQuery("SELECT g from Glumac g "
+					+ "INNER JOIN g.glumis gl INNER JOIN gl.glumiUizvodjenjus gi "
+					+ "WHERE gi.izvodjenje.idIzvodjenje = :x", Glumac.class)
+					.setParameter("x", idIzvodjenja)
+					.getResultList();
+			return glumci;
+			
+		} catch(Exception ex) {
+			ex.printStackTrace();
+			return null;
+		}
+	}
+	
 	
 	// main za debagovanje upita
 	public static void main(String[] args) {
-		System.out.println(filtriraneKarte("2024-11-10").get(0).getCena());
+		for(int i = 0; i < glumciUIzvodjenju(1).size(); i++) {
+			System.out.println(glumciUIzvodjenju(1).get(i).getIme());
+		}
 	}
 
 	

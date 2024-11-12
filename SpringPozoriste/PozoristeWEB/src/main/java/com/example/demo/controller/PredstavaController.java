@@ -20,6 +20,8 @@ import java.util.Map;
 @RequestMapping("/predstave/")
 public class PredstavaController {
 	
+	//Vezbe 3
+	
 	@GetMapping(value="getZanrovi")
 	public String getZanrovi(HttpServletRequest request) {
 		List<Zanr> zanrovi = Manager.sviZanrovi();
@@ -43,6 +45,6 @@ public class PredstavaController {
 	public String refreshPage(HttpServletRequest request) {
 		return "predstaveZanr";
 	}
-	
+		
 	
 }

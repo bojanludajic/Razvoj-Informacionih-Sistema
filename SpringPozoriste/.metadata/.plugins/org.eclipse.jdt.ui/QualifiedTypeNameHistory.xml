@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="manager.PredstaveManager"/>
     <fullyQualifiedTypeName name="manager.ZanrManager"/>
+    <fullyQualifiedTypeName name="manager.Manager"/>
 </qualifiedTypeNameHistroy>
